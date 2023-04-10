@@ -1,0 +1,208 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family:"Merriweather";
+  src: url(font/Merriweather);
+  
+}
+nav {
+  background-color:#FFEED8;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+nav a {
+  color: #333;
+  text-decoration: none;
+  font-size: 18px;
+  margin: 0 10px;
+  padding: 10px;
+  font-weight: lighter;
+  letter-spacing: 1px;
+  transition: all 0.3s;
+}
+nav a:hover {
+  background-color: #fff;
+  color: #333;
+  border-radius: 5px;
+}
+nav img {
+  height: 40px;
+  width: auto;
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+.logo img {
+    height: 50px;
+    margin-right: 1rem;
+}
+menu{
+    font-size:1.5rem ;
+    font-weight:bold ;
+    margin-right:1rem ;
+    text-decoration:none ;
+    color: #000;
+}
+
+	.search {
+			display: flex;
+			align-items: center;
+			background-color: #fff;
+			padding: 0.2rem;
+			border-radius: 3px;
+			margin-left: auto;
+		}
+		.search input[type="text"] {
+			border: none;
+			margin-left: 0.5rem;
+			width: 100%;
+			font-size: 1rem;
+			padding: 0.5rem;
+		}
+		.search button {
+			border: none;
+			background-color: #000;
+			color: #fff;
+			padding: 0.5rem;
+			border-radius: 5px;
+			cursor: pointer;
+        }
+.header {
+    padding: 1rem;
+    background-color:#FCF6EF;
+    }
+h1 {
+    font-family: "Merriweather";
+    src: url("font/Merriweather");
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+p {
+    font-family: "Open_Sans";
+    src: url("font/Open_Sans");
+    font-size: 1.5rem;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+}
+   
+.card-section {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #FFEED8;
+  }
+  
+  .card {
+    width: 100%;
+    max-width:480px;
+    height: auto;
+    margin: 10px;
+    text-align: center;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+    transition: transform 0.2s ease-in-out;
+    
+  }
+  
+  .card:hover {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    transform: translateY(-5px);
+  }
+  
+  .card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .card-description h2 {
+    margin-top: 10px;
+    font-size: 30px;
+    font-family: "Open_Sans";
+    src: url("font/Open_Sans");
+  }
+  
+  .card-description p {
+    margin-top: 5px;
+    font-size: 18px;
+    text-align:left;
+    padding: 20px;
+  }
+  footer {
+    background-color: #FFDEB5;
+    padding: 50px 0;
+  }
+  
+  .footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .footer-section {
+    width: 30%;
+    margin-bottom: 30px;
+  }
+  
+  .footer-section h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    font-family: "Merriweather";
+    src: url("font/Merriweather");
+  }
+  
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  ul li {
+    margin-bottom: 10px;
+  }
+  
+  ul li a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  .social-media li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .social-media li:last-child {
+    margin-right: 0;
+  }
+  
+  .social-media li a {
+    color: #333;
+    font-size: 24px;
+    text-decoration: none;
+  }
+  
+  .footer-bottom {
+    border-top: 1px solid #d9d9d9;
+    padding-top: 20px;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 14px;
+    color: #777;
+  }
+
+
